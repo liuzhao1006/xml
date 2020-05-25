@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 //                dom();
+                // https://blog.csdn.net/qq_41703795/article/details/105740541 读写sdcard权限参考
                 xmlDomParser();
             }
         }).start();
